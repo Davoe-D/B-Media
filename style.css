@@ -654,6 +654,7 @@ a:hover {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* Write Post*/
+
 .write-post-section {
     padding-left: 30px;
     padding-right: 30px;
@@ -741,6 +742,7 @@ a:hover {
 
 
 /*shared post*/
+
 div.post-area {
     margin-top: 10px;
        padding-left: 0px;
@@ -901,12 +903,12 @@ ul {
     padding-left: 0;
 }
 
-#contentCurve {
+/* #contentCurve {
   border-bottom: 1px solid #dddfe2;
   font-size: 1px;
   height: 8px;
   margin-bottom: 8px;
-}
+} */
 
 .nav p {
   display: none;
