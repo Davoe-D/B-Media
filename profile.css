@@ -100,8 +100,9 @@ header {
     display: grid;
     grid-template-rows: 44px;
     grid-template-columns: 95% 5%;
-    background-color: #414f6b;
+    background-color: #0e1421;
     margin-bottom: 20px;
+    font-style: italic;
 }
 
 .blue-header-banner-content {
