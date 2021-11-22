@@ -144,15 +144,3 @@ section.home{
     text-decoration: none;
 }
 
-::-webkit-scrollbar {
-    width: 5px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: transparent !important;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #bbbbbb;
-    border-radius: 10px;
-  }
