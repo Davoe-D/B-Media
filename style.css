@@ -372,7 +372,7 @@ body {
   display: none;
 }
 
-/* LOGIN PAGE STYLING  */
+/* ================LOGIN PAGE STYLING  ==============*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
@@ -383,6 +383,8 @@ body {
 body {
   background-color: #242C39;
   margin: 0;
+  width: auto;
+  height: auto;
   /* overflow-x: hidden ; */
 }
 .container {
@@ -419,7 +421,7 @@ body {
 .logobestzmedia {
   margin-left: 5%;
   padding-top: 10%;
-  left: 20%;
+  left: 5%;
   position: relative;
 }
 .para {
@@ -443,7 +445,7 @@ body {
   background-color: white;
 }
 .form-group input {
-  width: 99%;
+  width: 100%;
   height: 49px;
   border-radius: 6px;
   background: #ffff;
@@ -506,7 +508,7 @@ a:hover {
     margin: 0 47px;
 }
 
-.but2 {
+.createnew {
   background-color: #42b72a;
   color: white;
   border: 1px solid;
@@ -518,55 +520,9 @@ a:hover {
   vertical-align: middle;
   font-weight: bold;
 }
-.celeb {
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  margin: 30px;
-  text-align: center;
-}
-.celeb .lk{
-    color: black;
-    font-weight: bold;
-}
-.main-footer {
-  background-color: white;
-  color: #737373;
-  position: absolute;
-  width: auto;
-  height: auto;
-  padding: 1rem 2rem;
-  font-size: 12px;
-}
-.main-footer a {
-  margin-bottom: 100%;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color:#8a8d91;;
-}
-.main-footer a:hover {
-  text-decoration: underline;
-}
-.main-footer ul {
-  list-style: none;
-}
-.main-footer li {
-  display: inline;
-}
-.copyright {
-  color: #8a8d91;
-  font-size: 12px;
-  margin-left: 3.7%;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 11px;
-}
-.niche li{
-  padding-right: 20px;
-  line-height: 1.7;  
-}
-.upar li{
-  padding-right: 9px;
-}
+
+
+
 
 .loginA {
   text-decoration: none;
@@ -611,40 +567,21 @@ a:hover {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-#times{
-  display: block;
-  padding: 5px;
-  color: #fff;
-  top: 0;
-  font-size: 20px;
-  cursor: pointer;
-  position: absolute;
-  transition: 1s ease-in-out;
-}
-.hamburger{
-  top: 0;
-  right: 0;
-  cursor: pointer;
-  position: absolute;
-  padding: 30px;
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  display: block;
-}
+
 
 @media only screen and (min-width: 800px) {
   .container {
     flex-direction: row;
+    
   }
   .leftlogin, .rightlogin {
     width: 50%;
   }
   .leftlogin{
     transform: translate(0, 0) !important;
+
   }
-  .hamburger{
-    display: none;
-  }
+  
 
 }
 
@@ -653,7 +590,7 @@ a:hover {
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-/* Write Post*/
+/* Write Post PROFILE*/
 
 .write-post-section {
     padding-left: 30px;
@@ -885,6 +822,13 @@ width: 55px;
 
 .langList {
   padding-top: 100px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.langList span {
+  text-align: center;
 }
 
 ul {
