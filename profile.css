@@ -23,7 +23,7 @@ button img {
 }
 
 button.blue-btn {
-    color: white;
+    color: rgba(206, 168, 168, 0.823);
     background-color: #1877f2;
 }
 
@@ -42,7 +42,7 @@ hr.hor {
 }
 
 .components-group {
-    border-bottom: 10px solid lightgray;
+    border-bottom: 10px solid rgb(211, 192, 192);
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -107,7 +107,7 @@ header {
 
 .blue-header-banner-content {
     margin: auto;
-    color: #FFFFFF;
+    color: rgb(211, 192, 192);
     font-size: 20px;
 }
 
@@ -143,7 +143,7 @@ header {
 }
 
 .camera-section {
-    background-color: lightgrey;
+    background-color: rgb(211, 192, 192);
     width: 30px;
     text-align: center;
     border-radius: 50px;
@@ -163,7 +163,7 @@ header {
 
 .profile-image-section > img {
     box-shadow: 2px 11px 6px 1px rgba(0, 0, 0, .125);
-    border-color: white;
+    border-color: rgb(211, 192, 192);
     border-style: solid;
     border-width: 5px;
     border-radius: 50%;
@@ -247,5 +247,5 @@ header {
     color: white;
 }
 .about-section .about-link .button-link-black img{
-    color: white;
+    color: rgb(211, 192, 192);
 }
