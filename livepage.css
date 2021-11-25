@@ -74,9 +74,9 @@
   transition: color 150ms;
 }
 
-.video-channel-name:hover {
+/* .video-channel-name:hover {
   color: #111;
-}
+} */
 
 .video-channel-name,
 .video-metadata {
