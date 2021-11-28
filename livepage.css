@@ -100,3 +100,15 @@
   color: #555;
   cursor: pointer;
 }
+
+.m-b-50 {
+  font-size: 30px;
+  text-align: center;
+}
+.m-b-50 .fa {
+  color: #555;
+}
+
+.fish-line {
+  position: relative;
+}
