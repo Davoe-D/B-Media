@@ -19,6 +19,7 @@
   max-width: 768px;
   margin: auto;
   padding: 0em 1.5em;
+  overflow: hidden;
 }
 body {
   background: var(--background);
